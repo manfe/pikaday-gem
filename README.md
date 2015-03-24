@@ -1,7 +1,9 @@
-# Pikaday Gem
+# [Deprecated/Unsupported] Pikaday Gem
 [![Gem Version](https://badge.fury.io/rb/pikaday-gem.png)](http://badge.fury.io/rb/pikaday-gem) [![Dependency Status](https://gemnasium.com/ets-berkeley-edu/pikaday-gem.png)](https://gemnasium.com/ets-berkeley-edu/pikaday-gem) [![Code Climate](https://codeclimate.com/github/ets-berkeley-edu/pikaday-gem.png)](https://codeclimate.com/github/ets-berkeley-edu/pikaday-gem)
 
 [Pikaday datepicker][pikaday] as a Ruby gem.
+
+**03/25/2015 - Unsupported: Due to the ETS Berkeley team now using [npm](https://www.npmjs.com/) for front-end dependencies, this gem is no longer supported.**
 
 ## Getting Started
 
