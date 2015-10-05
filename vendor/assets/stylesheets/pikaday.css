@@ -5,7 +5,7 @@
  * Copyright © 2012 David Bushell | BSD & MIT license | http://dbushell.com/
  */
 
-body .pika-single {
+.pika-single {
     z-index: 9999;
     display: block;
     position: relative;
@@ -18,21 +18,21 @@ body .pika-single {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-body .pika-single.is-hidden {
+.pika-single.is-hidden {
     display: none;
 }
 
-body .pika-single.is-bound {
+.pika-single.is-bound {
     position: absolute;
     box-shadow: 0 5px 15px -5px rgba(0,0,0,.5);
 }
 
-body .pika-title {
+.pika-title {
     position: relative;
     text-align: center;
 }
 
-body .pika-label {
+.pika-label {
     display: inline-block;
     *display: inline;
     position: relative;
@@ -45,7 +45,7 @@ body .pika-label {
     font-weight: bold;
     background-color: #fff;
 }
-body .pika-title select {
+.pika-title select {
     cursor: pointer;
     position: absolute;
     z-index: 9998;
@@ -55,8 +55,8 @@ body .pika-title select {
     opacity: 0;
 }
 
-body .pika-prev,
-body .pika-next {
+.pika-prev,
+.pika-next {
     display: block;
     cursor: pointer;
     position: relative;
@@ -77,53 +77,49 @@ body .pika-next {
     *top: 0;
 }
 
-body .pika-prev:hover,
-body .pika-next:hover {
+.pika-prev:hover,
+.pika-next:hover {
     opacity: 1;
 }
 
-body .pika-prev,
-body .is-rtl .pika-next {
+.pika-prev,
+.is-rtl .pika-next {
     float: left;
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAUklEQVR42u3VMQoAIBADQf8Pgj+OD9hG2CtONJB2ymQkKe0HbwAP0xucDiQWARITIDEBEnMgMQ8S8+AqBIl6kKgHiXqQqAeJepBo/z38J/U0uAHlaBkBl9I4GwAAAABJRU5ErkJggg==');
     *left: 0;
 }
 
-body .pika-next,
-body .is-rtl .pika-prev {
+.pika-next,
+.is-rtl .pika-prev {
     float: right;
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAU0lEQVR42u3VOwoAMAgE0dwfAnNjU26bYkBCFGwfiL9VVWoO+BJ4Gf3gtsEKKoFBNTCoCAYVwaAiGNQGMUHMkjGbgjk2mIONuXo0nC8XnCf1JXgArVIZAQh5TKYAAAAASUVORK5CYII=');
     *right: 0;
 }
 
-body .pika-prev.is-disabled,
-body .pika-next.is-disabled {
+.pika-prev.is-disabled,
+.pika-next.is-disabled {
     cursor: default;
     opacity: .2;
 }
 
-body .pika-select {
+.pika-select {
     display: inline-block;
     *display: inline;
 }
 
-body .pika-table {
+.pika-table {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
     border: 0;
 }
 
-body .pika-table th,
-body .pika-table td {
+.pika-table th,
+.pika-table td {
     width: 14.285714285714286%;
-    padding: 0;
-    line-height: 25px;
-    text-align: center;
-    border-top: none;
 }
 
-body .pika-table th {
+.pika-table th {
     color: #999;
     font-size: 12px;
     line-height: 25px;
@@ -131,7 +127,7 @@ body .pika-table th {
     text-align: center;
 }
 
-body .pika-button {
+.pika-button {
     cursor: pointer;
     display: block;
     outline: none;
@@ -146,12 +142,12 @@ body .pika-button {
     background: #f5f5f5;
 }
 
-body .is-today .pika-button {
+.is-today .pika-button {
     color: #33aaff;
     font-weight: bold;
 }
 
-body .is-selected .pika-button {
+.is-selected .pika-button {
     color: #fff;
     font-weight: bold;
     background: #33aaff;
@@ -159,14 +155,14 @@ body .is-selected .pika-button {
     border-radius: 3px;
 }
 
-body .is-disabled .pika-button {
+.is-disabled .pika-button {
     pointer-events: none;
     cursor: default;
     color: #999;
     opacity: .3;
 }
 
-body .pika-button:hover {
+.pika-button:hover {
     color: #fff !important;
     background: #ff8000 !important;
     box-shadow: none !important;
